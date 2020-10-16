@@ -3,7 +3,9 @@ package src;
 
 public abstract class Graph<E> {
 	public static final int MAX_VERTICES = 100;
-	public static final int FIRST_VERTEX_INDEX = 1; 
+	public static final int FIRST_VERTEX_INDEX = 0; 
+	
+	
 	public EdgeNode<E>[] edges;
 	public int numberVertices;
 	public int[] degrees;

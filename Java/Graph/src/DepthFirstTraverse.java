@@ -1,6 +1,7 @@
 package src;
 
 public abstract class DepthFirstTraverse<E> extends GraphTraversal<E> {
+
 	private int time;
 	private int[] parent;
 	private int[] entryTime;
@@ -68,5 +69,21 @@ public abstract class DepthFirstTraverse<E> extends GraphTraversal<E> {
 			parent[i] = 0;
 		}
 	}
-
+	
+	protected EdgeClass classifyEdge (Vertex<E> from, Vertex<E> to) {
+		if (parent[to.intLabel] == from.intLabel) {
+			return EdgeClass.TREE;
+		};
+		if (isDiscovered[to.intLabel] && !isProcessed[from.intLabel]) {
+			 return EdgeClass.BACK;
+		};
+		if (isProcessed[to.intLabel] && (entryTime[to.intLabel] > entryTime[from.intLabel])) {
+			return EdgeClass.FORWARD;
+		};
+		if (isProcessed[to.intLabel] && (entryTime[to.intLabel] < entryTime[from.intLabel])) {
+			return EdgeClass.CROSS;
+		 };
+		 
+		 return EdgeClass.UNIDENTIFIED;		
+	}
 }
