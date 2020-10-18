@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="DataStructure"/>
+	<classpathentry kind="src" path="Sorting"/>
+	<classpathentry kind="src" path="Utilities"/>
+	<classpathentry kind="src" path="Graph"/>
+	<classpathentry kind="src" path="HeuristicSearching"/>
+	<classpathentry kind="src" path="DynamicProgramming"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
