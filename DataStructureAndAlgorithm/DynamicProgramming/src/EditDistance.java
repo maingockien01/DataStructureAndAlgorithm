@@ -91,7 +91,7 @@ public class EditDistance {
     private void initTable (String p, String t) {
         int rowsNum = p.length();
         int colsNum = t.length();
-
+        
         cells = new cell[rowsNum][colsNum];
         for (int row = 0; row < rowsNum; row ++) {
             for (int col = 0; col < colsNum; col ++) {
