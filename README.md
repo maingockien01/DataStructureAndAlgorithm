@@ -7,3 +7,38 @@ This rep is my learning progress. As a comp sci student, data structure and algo
 I try my best to apply clean code principle as well as OOP principles. My assumption is this library will be used in the future for different projects. That's why I tried to apply generic and different OOP principles so future users can use it easily by adding their needs into the my code (without changing my code!!!).
 
 I know that some of code in this project is not clean so give me your review if you are already here! 
+
+Objective: This is what I want to learn and what I have learned. 
+
+[X] Basic Structure: I underrstanded most of them already from my course in uni
+    [X] Array, Hash array (Dictionary)
+    [X] Linked list, Stack, Queue
+  [X] Graph: graph data structure, graph traversal
+[X] Sorting and Searching
+  [X] Comparing sort: insert, bubble, pivot, heap, merge
+  [X] Distributional sort
+  [X] Search: binary, quick
+[X] Combinatorail search and Heruristic method
+  [X] Backtracking: I learned this from the course but I will try some advance problems.
+  [X] Heuristic method
+    [X] Random pciking
+    [X] CLimbing Hill
+    [X] Stimulated Annealing
+[X] Dynamic programming
+
+[] Approximation algorithm 
+[] Advanced data structure
+  [] Graph
+  [] Set
+  [] Kd Tree
+[] Numerical problems
+[] Combinatorial problem
+[] Graph problem
+[] Computational algorithm geometry
+[] Set and String problems
+
+[] New algorithm from learning, coding competition, ...
+
+Deadline:
+[] December 2020: finish till set and string problem
+I know learning has no end to be exacly deadline. This is the deadline that I would learned all I can from the book The Algorithm Design Manual.
